@@ -1,0 +1,29 @@
+header.header {
+  background: var(--blue);
+  padding-top: 2rem;
+  
+  > div {
+    max-width: 1120px;
+    margin: 0 auto;
+
+    padding: 2rem 1rem 12rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .texts {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin: 5px 5px 0 0;
+        color: var(--text);
+        font-size: 12px;
+      }
+    }
+
+    
+  }
+}
